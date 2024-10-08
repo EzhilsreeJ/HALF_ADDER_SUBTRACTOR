@@ -12,6 +12,10 @@ Hardware – PCs, Cyclone II , USB flasher
 
 Software – Quartus prime Theory Adders are digital circuits that carry out the addition of numbers.
 
+
+## Figure -01 HALF ADDER
+
+
 **Half Adder**
 
 Half adder is a combinational circuit that performs simple addition of two binary numbers. The input variables designate the augend and addend bits; the output variables produce the sum and carry. It is necessary to specify two output variables because the result may consist of two binary digits.
@@ -20,7 +24,7 @@ Sum = A’B+AB’ =A ⊕ B Carry = AB
 
 ![image](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/154305477/bd4a0b2c-cdbc-4184-ab08-81578f121e1f)
 
-Figure -01 HALF ADDER
+## Figure -02 HALF Subtractor
 
 **Half Subtractor**
 
@@ -31,10 +35,8 @@ Borrow = A’B
 
  ![image](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/154305477/d76b099c-513f-4e7c-843a-e2fd028a531a)
 
-Figure -02 HALF Subtractor
 
-**Truthtable**
-![image](https://github.com/user-attachments/assets/964ce9ba-59ff-4527-975b-4323e005329f)
+
 
 **Procedure**
 
@@ -77,6 +79,10 @@ assign D = a ^ b;
 assign Bo = ~a & b;
 endmodule
 ```
+
+**Truthtable**
+![image](https://github.com/user-attachments/assets/964ce9ba-59ff-4527-975b-4323e005329f)
+
 **RTL Schematic**
 ## Half_adder
 ![image](https://github.com/user-attachments/assets/2ffb205d-e4b6-40b7-90d8-d2104f906618)
@@ -86,9 +92,9 @@ endmodule
 
 **Output/TIMING Waveform**
 ## Half_adder
-![image](https://github.com/user-attachments/assets/5bb188cf-50e7-4edb-8cd2-c49c31c97ae5)
+![image](https://github.com/user-attachments/assets/0bc9233d-fda9-4ccf-a05e-be934dea7876)
 ## Half_subtractor
-![image](https://github.com/user-attachments/assets/552fad30-b865-4d96-b952-22334f4fbe92)
+![image](https://github.com/user-attachments/assets/fe87f97e-5c3c-42de-8985-30a1047068b5)
 
 **Result:**
 
