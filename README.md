@@ -81,6 +81,8 @@ endmodule
 ```
 
 **Truthtable**
+
+
 ![image](https://github.com/user-attachments/assets/964ce9ba-59ff-4527-975b-4323e005329f)
 
 **RTL Schematic**
